@@ -17,8 +17,8 @@ def getText(filename):
         fullText.append(para.text)
     return fullText#'\n'.join(fullText)
 
-appid = '20200307000394085' #你的appid
-secretKey = 'qioMonQVhuyat02fNvmw' #你的密钥
+appid = '' #your appid
+secretKey = '' #your key
 
 targetFile=""
 targetFile=eg.fileopenbox(filetypes=['*.docx'])
